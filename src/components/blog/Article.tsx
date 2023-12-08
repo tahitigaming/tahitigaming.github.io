@@ -80,8 +80,9 @@ export function ArticleImageModule({
     return (
         <div className={`my-11 mx-auto max-w-5xl`}>
             <div
-                className={`max-w-full max-h-[95vh] min-h-[576px] lg:bg-gray-800 lg:rounded-xl overflow-hidden flex items-center justify-center`}
+                className={`max-w-full max-h-[95vh] lg:bg-gray-800 lg:rounded-xl overflow-hidden flex items-center justify-center`}
             >
+                {/*min-h-[576px]*/}
                 <img
                     className="mx-auto max-h-[95vh] max-w-full w-fit h-fit aspect-video"
                     alt={`Image`}
