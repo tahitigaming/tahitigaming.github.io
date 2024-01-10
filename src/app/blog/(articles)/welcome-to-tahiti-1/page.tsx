@@ -10,13 +10,13 @@ export const metadata: Metadata = {
         "Welcome to our first Developer Blog, where we give you a quick rundown of the road so far and what's in store for you this year",
     openGraph: {
         title: "Welcome to Tahiti Roleplay",
-        description: "Welcome to our first Developer Blog, where we give you a quick rundown of the road so far and what's in store for you this year",
+        description:
+            "Welcome to our first Developer Blog, where we give you a quick rundown of the road so far and what's in store for you this year",
         locale: "en_US",
         type: "article",
         authors: ["Jamie", "Josh", "Linus", "Sebastiaan", "Tim"],
         publishedTime: "2023-12-08T19:00:00.000Z",
-        
-    }
+    },
 };
 
 export default function StaticArticle() {
@@ -195,7 +195,7 @@ export default function StaticArticle() {
             </ArticleTextModule>
             <ArticleTextModule>
                 Stay tuned for the excitement that awaits as we approach our
-                Early Access Launch in Q4 2023. The wild west beckons, and
+                Early Access Launch in Q1 2024. The wild west beckons, and
                 Tahiti Roleplay is your stage. Join us on this thrilling
                 adventure where your story unfolds, and the possibilities are as
                 limitless as the untamed frontier itself.
